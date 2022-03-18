@@ -1,1 +1,0 @@
-# cryptohack-source-code
