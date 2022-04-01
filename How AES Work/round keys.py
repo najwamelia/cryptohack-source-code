@@ -29,6 +29,4 @@ def matrix2b(matrix):
     """ Converts a 4x4 matrix into a 16-byte array.  """
     return bytes(sum(matrix, []))
 
-flag=add_round_key(state, round_key)
-
 print(matrix2b(add_round_key(state, round_key)))
