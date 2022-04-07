@@ -34,6 +34,6 @@ def get_letter(block, depth=1):
 
 flag = get_letter('-' * 32)
 
-print("The flag is: " + flag)
+print(flag)
 
 # flag = crypto{p3n6u1n5_h473_3cb}
